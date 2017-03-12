@@ -1,0 +1,126 @@
+body {
+  padding: 0;
+  margin: 0;
+  top: 0;
+}
+
+footer {
+  padding: 1em;
+  color: white;
+  background-color: black;
+  clear: left;
+  text-align: center;
+}
+
+header
+{
+  padding-left: 10%;
+  background-color: black;
+  color: white;
+}
+
+#logStyle
+{
+	height: 300px;
+    overflow: scroll;
+}
+
+#currAmount
+{
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+	padding: 7px 0;
+}
+
+header h1
+{
+  margin: 0;
+  padding: 1% 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+	color: white;
+}
+
+tr{
+  background-color: green;
+}
+
+/*tr:nth-child(even){background-color: #f2f2f2}*/
+
+th {
+  background-color: #87CEFA;
+  color: black;
+}
+
+
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#btn1{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#btn1:hover {
+    background-color: #45a040;
+}
+
+#fillatm {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.formSpacing{
+	margin: 8px 0;
+}
+
+#error, #formError
+{
+	color: red;
+}
+
+#f2000Err, #f500Err, #f100Err, #f50Err
+{
+	color: red;
+}
+
+#amountDiv, #amountLabel
+{
+	margin-bottom: 20px;
+}
+
+#logside
+{
+	border: 1px solid gray;
+}
+
+#userside
+{
+/*	border-bottom: 1px solid gray;*/
+	border-right: 1px solid gray;
+	padding-bottom: 40px;
+}
+
